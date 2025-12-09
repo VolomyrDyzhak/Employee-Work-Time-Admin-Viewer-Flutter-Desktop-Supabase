@@ -1,0 +1,31 @@
+name: desctop_app_origen
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  excel: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  path_provider: ^2.1.5
+  supabase_flutter: ^2.10.3
+
+flutter_icons:
+  
+  windows: true
+  image_path: "assets/icons/origenLogo.jpg"
+  
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
